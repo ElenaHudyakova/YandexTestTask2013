@@ -28,7 +28,8 @@
 		BFCCB4F716FA1FF000102A3C /* Ambulance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ambulance; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCCB4FA16FA1FF000102A3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFCCB4FC16FA1FF000102A3C /* Ambulance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ambulance.1; sourceTree = "<group>"; };
-		BFEB8E7D16FC335500EBFFE8 /* tests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tests; sourceTree = "<group>"; };
+		BFF882E916FC9937008D783B /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		BFF882EA16FCA1B1008D783B /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +62,10 @@
 		BFCCB4F916FA1FF000102A3C /* Ambulance */ = {
 			isa = PBXGroup;
 			children = (
+				BFF882EA16FCA1B1008D783B /* output.txt */,
 				BFCCB4FA16FA1FF000102A3C /* main.cpp */,
 				BFCCB4FC16FA1FF000102A3C /* Ambulance.1 */,
-				BFEB8E7D16FC335500EBFFE8 /* tests */,
+				BFF882E916FC9937008D783B /* input.txt */,
 			);
 			path = Ambulance;
 			sourceTree = "<group>";
